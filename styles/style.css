@@ -16,6 +16,18 @@ main section {
     margin-bottom: 120px;
 }
 
+.card-1-bg {
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.card-2-bg {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.card-3-bg {
+    background: rgba(255, 223, 0, 0.05);
+}
+
 /* banner styles */
 .banner {
     background-image: url("/assets/Hero-bg.png");
@@ -140,4 +152,49 @@ main section {
     height: 730px;
     padding: 48px;
     border-radius: 60px;
+}
+
+/* current target styles */
+.target-main {
+    text-align: center;
+}
+
+.target-header {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.target-des {
+    margin-bottom: 48px;
+}
+
+/* card styles */
+.target-card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card-1 {
+    padding: 50px;
+    border-radius: 16px;
+}
+
+.card-img {
+    margin-bottom: 25px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.card-des {
+    margin-bottom: 24px;
+}
+
+.card-anchor {
+    font-size: 17px;
+    font-weight: 700;
 }
