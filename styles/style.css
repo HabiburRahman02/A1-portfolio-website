@@ -9,13 +9,20 @@ body {
     font-family: "Azeret Mono", monospace;
 }
 
+/* shared styles */
+main section {
+    max-width: 1520px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
 /* banner styles */
 .banner {
     background-image: url("/assets/Hero-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    max-width: 100%;
     margin-bottom: 120px;
 }
 
@@ -37,6 +44,7 @@ body {
 
 .banner-des {
     margin-bottom: 32px;
+    line-height: 26px;
 }
 
 .btn-contact {
@@ -47,4 +55,59 @@ body {
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
+}
+
+/* web styles */
+.web-top-content {
+    text-align: center;
+}
+
+.web-main-header {
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    margin-bottom: 24px;
+}
+.web-main-des{
+    margin-bottom: 48px;
+}
+
+.web {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.web-content {
+    padding: 80px 95px;
+}
+
+.web-column-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 110px;
+    padding: 48px;
+    background-color: white;
+    margin-bottom: 80px;
+    /* color: rgba(13, 19, 33, 0.7); */
+}
+
+.web-1-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
+.web-1-des {
+    margin-bottom: 32px;
+}
+
+.btn-web {
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
 }
