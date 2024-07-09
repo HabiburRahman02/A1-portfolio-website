@@ -11,7 +11,7 @@ body {
 
 /* shared styles */
 main section {
-    max-width: 1520px;
+    max-width: 1140px;
     margin: 0 auto;
     margin-bottom: 120px;
 }
@@ -30,7 +30,7 @@ main section {
 
 /* banner styles */
 .banner {
-    background-image: url("/assets/Hero-bg.png");
+    background-image: url("../assets/Hero-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -148,10 +148,10 @@ main section {
 }
 
 .youtube-video {
-    width: 1430px;
-    height: 730px;
-    padding: 48px;
-    border-radius: 60px;
+    width: 1076px;
+    height: 550px;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 /* current target styles */
