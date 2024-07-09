@@ -128,3 +128,13 @@ main section {
 .youtube-main-des {
     margin-bottom: 48px;
 }
+
+.youtube-content {
+    text-align: center;
+}
+
+.youtube-video {
+    width: 1430px;
+    height: 730px;
+    border: 2px solid saddlebrown;
+}
