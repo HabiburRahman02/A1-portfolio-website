@@ -244,3 +244,22 @@ main section {
 }
 
 
+/* footer styles */
+.footer {
+    width: 100%;
+}
+
+.footer-content {
+    padding: 32px 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .icons{
+    margin-right: 130px;
+} */
+
+.icons a{
+    margin-left: 25px;
+}
