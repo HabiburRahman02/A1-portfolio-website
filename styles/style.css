@@ -243,7 +243,6 @@ main section {
     font-weight: bold;
 }
 
-
 /* footer styles */
 .footer {
     width: 100%;
@@ -260,6 +259,6 @@ main section {
     margin-right: 130px;
 } */
 
-.icons a{
+.icons a {
     margin-left: 25px;
 }
