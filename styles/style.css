@@ -68,7 +68,8 @@ main section {
     color: rgb(13, 19, 33);
     margin-bottom: 24px;
 }
-.web-main-des{
+
+.web-main-des {
     margin-bottom: 48px;
 }
 
@@ -106,8 +107,24 @@ main section {
 
 .btn-web {
     border: 1px solid rgb(13, 19, 33);
+    background-color: white;
     opacity: 0.7;
     padding: 12px 20px 12px 20px;
     font-size: 20px;
     font-weight: 600;
+}
+
+/* youtube styles */
+.youtube-main {
+    text-align: center;
+}
+
+.youtube-main-header {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.youtube-main-des {
+    margin-bottom: 48px;
 }
