@@ -197,6 +197,7 @@ main section {
 .card-anchor {
     font-size: 17px;
     font-weight: 700;
+    color: rgb(13, 19, 33);
 }
 
 /* support styles */
